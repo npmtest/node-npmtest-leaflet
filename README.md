@@ -1,0 +1,137 @@
+# test coverage for  [leaflet (v1.0.3)](https://github.com/Leaflet/Leaflet#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-leaflet.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-leaflet) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-leaflet.svg)](https://travis-ci.org/npmtest/node-npmtest-leaflet)
+#### JavaScript library for mobile-friendly interactive maps
+
+[![NPM](https://nodei.co/npm/leaflet.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/leaflet)
+
+| git-branch : | [alpha](https://github.com/npmtest/node-npmtest-leaflet/tree/alpha)|
+|--:|:--|
+| coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-leaflet/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-leaflet/build/coverage.html/index.html)|
+| test-report : | [![test-report](https://npmtest.github.io/node-npmtest-leaflet/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-leaflet/build/test-report.html)|
+| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-leaflet/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-leaflet/tree/gh-pages/build)|
+
+- [https://npmtest.github.io/node-npmtest-leaflet/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-leaflet/build/coverage.html/index.html)
+
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-leaflet/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-leaflet/build/coverage.html/index.html)
+
+- [https://npmtest.github.io/node-npmtest-leaflet/build/test-report.html](https://npmtest.github.io/node-npmtest-leaflet/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-leaflet/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-leaflet/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-leaflet/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-leaflet/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-leaflet/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-leaflet/build/apidoc.html)
+
+![npmPackageListing](https://npmtest.github.io/node-npmtest-leaflet/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmtest.github.io/node-npmtest-leaflet/build/screenCapture.npmPackageDependencyTree.svg)
+
+
+
+# package.json
+
+```json
+
+{
+    "bugs": {
+        "url": "https://github.com/Leaflet/Leaflet/issues"
+    },
+    "dependencies": {},
+    "description": "JavaScript library for mobile-friendly interactive maps",
+    "devDependencies": {
+        "eslint": "^3.5.0 <3.6.0",
+        "eslint-config-mourner": "^2.0.1",
+        "git-rev": "^0.2.1",
+        "happen": "~0.3.1",
+        "jake": "~8.0.12",
+        "karma": "^1.3.0",
+        "karma-chrome-launcher": "^2.0.0",
+        "karma-coverage": "~1.1.1",
+        "karma-firefox-launcher": "~1.0.0",
+        "karma-mocha": "^1.2.0",
+        "karma-phantomjs-launcher": "^1.0.2",
+        "karma-safari-launcher": "~1.0.0",
+        "leafdoc": "^1.4.1",
+        "mocha": "^3.1.0",
+        "phantomjs-prebuilt": "^2.1.12",
+        "prosthetic-hand": "^1.3.1",
+        "source-map": "^0.5.6",
+        "uglify-js": "~2.7.3"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "1f401b98b45c8192134c6c8d69686253805007c8",
+        "tarball": "https://registry.npmjs.org/leaflet/-/leaflet-1.0.3.tgz"
+    },
+    "eslintConfig": {
+        "root": true,
+        "globals": {
+            "L": true
+        },
+        "env": {
+            "commonjs": true,
+            "amd": true,
+            "node": false
+        },
+        "extends": "mourner",
+        "rules": {
+            "no-mixed-spaces-and-tabs": [
+                2,
+                "smart-tabs"
+            ],
+            "indent": [
+                2,
+                "tab",
+                {
+                    "VariableDeclarator": 0
+                }
+            ],
+            "curly": 2,
+            "spaced-comment": 2,
+            "strict": 0,
+            "wrap-iife": 0,
+            "key-spacing": 0,
+            "consistent-return": 0
+        }
+    },
+    "gitHead": "ed36a04aefd12cb92c78074fe63a8e460db1d464",
+    "homepage": "https://github.com/Leaflet/Leaflet#readme",
+    "keywords": [
+        "gis",
+        "map"
+    ],
+    "license": "BSD-2-Clause",
+    "main": "dist/leaflet-src.js",
+    "maintainers": [
+        {
+            "name": "ivansanchez"
+        },
+        {
+            "name": "liedman"
+        },
+        {
+            "name": "mourner"
+        },
+        {
+            "name": "ybon"
+        }
+    ],
+    "name": "leaflet",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Leaflet/Leaflet.git"
+    },
+    "scripts": {
+        "build": "jake build",
+        "release": "./build/publish.sh",
+        "test": "jake test"
+    },
+    "style": "dist/leaflet.css",
+    "version": "1.0.3"
+}
+```
+
+
+
+# misc
+- this document was created with [utility2](https://github.com/kaizhu256/node-utility2)
