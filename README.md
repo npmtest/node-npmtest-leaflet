@@ -1,4 +1,7 @@
-# test coverage for  [leaflet (v1.0.3)](https://github.com/Leaflet/Leaflet#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-leaflet.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-leaflet) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-leaflet.svg)](https://travis-ci.org/npmtest/node-npmtest-leaflet)
+# npmtest-leaflet
+
+#### basic test coverage for  [leaflet (v1.0.3)](https://github.com/Leaflet/Leaflet#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-leaflet.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-leaflet) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-leaflet.svg)](https://travis-ci.org/npmtest/node-npmtest-leaflet)
+
 #### JavaScript library for mobile-friendly interactive maps
 
 [![NPM](https://nodei.co/npm/leaflet.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/leaflet)
